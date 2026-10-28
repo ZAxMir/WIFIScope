@@ -2,22 +2,22 @@ Before using the app, you must have Wi-Fi turned on and grant Precise Location a
 
 ## Screenshots
 
-### 1) Deep Beacon Inspector view
-Shows a real-time signal quality trace and detailed RF link metrics for a selected access point, including channel, bandwidth, PHY mode, SNR, path loss, and theoretical throughput.
+### 1) Beacon signal and RF metrics
+Shows an access point's signal strength, channel, bandwidth, noise floor, SNR, and estimated data rate.
 
-![Deep Beacon Inspector and RF telemetry](https://github.com/user-attachments/assets/6a317b31-f8a0-4bf2-8cee-0d9ee9e00ba9)
+![Beacon signal and RF metrics](https://github.com/user-attachments/assets/6a317b31-f8a0-4bf2-8cee-0d9ee9e00ba9)
 
-### 2) WiFiScope analysis panel
-Displays another diagnostics screen in the same interface style, focused on low-level wireless telemetry and frame-level inspection data.
+### 2) Router identity and beacon timing
+Shows the router's device identity, BSSID, manufacturer details, and beacon timing data.
 
-![WiFiScope diagnostics screenshot 2](https://github.com/user-attachments/assets/59fbb83b-6d98-4d00-aa24-ec6e696aae3e)
+![Router identity and beacon timing](https://github.com/user-attachments/assets/59fbb83b-6d98-4d00-aa24-ec6e696aae3e)
 
-### 3) WiFiScope analysis panel
-Highlights additional in-app wireless analysis output for troubleshooting network quality and beacon behavior.
+### 3) Wi-Fi security details
+Shows the network's encryption, key management, WPS, and frame protection settings.
 
-![WiFiScope diagnostics screenshot 3](https://github.com/user-attachments/assets/9bc5bbc1-1f5e-4e6c-ae5d-7c5eb05ce7fc)
+![Wi-Fi security details](https://github.com/user-attachments/assets/9bc5bbc1-1f5e-4e6c-ae5d-7c5eb05ce7fc)
 
-### 4) WiFiScope analysis panel
-Shows another advanced monitoring screen used to inspect radio conditions and access point characteristics in real time.
+### 4) Connected devices and Wi-Fi capabilities
+Shows connected-device estimates, channel information, transmit power, MIMO, and other 802.11 capabilities.
 
-![WiFiScope diagnostics screenshot 4](https://github.com/user-attachments/assets/965a0e4d-2328-427b-b626-d7604d34ba40)
+![Connected devices and Wi-Fi capabilities](https://github.com/user-attachments/assets/965a0e4d-2328-427b-b626-d7604d34ba40)

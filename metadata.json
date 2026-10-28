@@ -1,0 +1,6 @@
+{
+  "name": "WiFiScope",
+  "description": "High-precision Wi-Fi analyzer, 802.11 RF spectrum telemetry, 360° polar direction finding, and universal LAN client forensics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

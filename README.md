@@ -2,22 +2,27 @@ Before using the app, you must have Wi-Fi turned on and grant Precise Location a
 
 ## Screenshots
 
-### 1) Deep Beacon Inspector view
-Shows a real-time signal quality trace and detailed RF link metrics for a selected access point, including channel, bandwidth, PHY mode, SNR, path loss, and theoretical throughput.
+### 1) RF spectrum and link-budget telemetry
+Shows the real-time RSSI trace for a selected access point alongside primary channel, channel width, spectrum span, PHY mode, noise floor, SNR, path loss, estimated range, PHY rate, Shannon capacity, and co-channel overlap.
 
-![Deep Beacon Inspector and RF telemetry](https://github.com/user-attachments/assets/6a317b31-f8a0-4bf2-8cee-0d9ee9e00ba9)
+![RF spectrum and link-budget telemetry](https://github.com/user-attachments/assets/6a317b31-f8a0-4bf2-8cee-0d9ee9e00ba9)
 
-### 2) WiFiScope analysis panel
-Displays another diagnostics screen in the same interface style, focused on low-level wireless telemetry and frame-level inspection data.
+### 2) Over-the-air router identity and clock analysis
+Displays the AP identity and unmasked device information, JA3-style 802.11 information-element hash, silicon fingerprint, randomized BSSID details, colocated radios, beacon timing, and quartz clock skew.
 
-![WiFiScope diagnostics screenshot 2](https://github.com/user-attachments/assets/59fbb83b-6d98-4d00-aa24-ec6e696aae3e)
+![Over-the-air router identity and clock analysis](https://github.com/user-attachments/assets/59fbb83b-6d98-4d00-aa24-ec6e696aae3e)
 
-### 3) WiFiScope analysis panel
-Highlights additional in-app wireless analysis output for troubleshooting network quality and beacon behavior.
+### 3) Cryptographic security and AKM matrix
+Summarizes WPA2/WPA3 transition security, pairwise ciphers, SAE and PSK key management, RSN capabilities, management-frame protection, WPS status, and fast-roaming support.
 
-![WiFiScope diagnostics screenshot 3](https://github.com/user-attachments/assets/9bc5bbc1-1f5e-4e6c-ae5d-7c5eb05ce7fc)
+![Cryptographic security and AKM matrix](https://github.com/user-attachments/assets/9bc5bbc1-1f5e-4e6c-ae5d-7c5eb05ce7fc)
 
-### 4) WiFiScope analysis panel
-Shows another advanced monitoring screen used to inspect radio conditions and access point characteristics in real time.
+### 4) Connected devices and deep 802.11 information elements
+Shows estimated connected devices, QoS and TIM/DTIM state, regulatory and transmit-power constraints, MIMO and beamforming, HT/HE capabilities, BSS color, extended capabilities, and vendor OUIs.
 
-![WiFiScope diagnostics screenshot 4](https://github.com/user-attachments/assets/965a0e4d-2328-427b-b626-d7604d34ba40)
+![Connected devices and deep 802.11 information elements](https://github.com/user-attachments/assets/965a0e4d-2328-427b-b626-d7604d34ba40)
+
+### 5) Decoded beacon information-element frame
+Provides the raw beacon IE payload together with decoded tags for SSID, supported rates, channel parameters, TIM, country and power constraints, RSN, HT/VHT/HE capabilities, spatial reuse, MU-EDCA, and vendor extensions.
+
+![Decoded beacon information-element frame](https://github.com/user-attachments/assets/6a317b31-f8a0-4bf2-8cee-0d9ee9e00ba9)

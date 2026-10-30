@@ -2,22 +2,27 @@ Before using the app, you must have Wi-Fi turned on and grant Precise Location a
 
 ## Screenshots
 
-### 1) Beacon signal and RF metrics
-Shows an access point's signal strength, channel, bandwidth, noise floor, SNR, and estimated data rate.
+### 1) RF spectrum and link-budget telemetry
+Shows the real-time RSSI trace for a selected access point alongside primary channel, channel width, spectrum span, PHY mode, noise floor, SNR, path loss, estimated range, PHY rate, Shannon capacity, and co-channel overlap.
 
-![Beacon signal and RF metrics](https://github.com/user-attachments/assets/6a317b31-f8a0-4bf2-8cee-0d9ee9e00ba9)
+![RF spectrum and link-budget telemetry](https://github.com/user-attachments/assets/6a317b31-f8a0-4bf2-8cee-0d9ee9e00ba9)
 
-### 2) Router identity and beacon timing
-Shows the router's device identity, BSSID, manufacturer details, and beacon timing data.
+### 2) Over-the-air router identity and clock analysis
+Displays the AP identity and unmasked device information, JA3-style 802.11 information-element hash, silicon fingerprint, randomized BSSID details, colocated radios, beacon timing, and quartz clock skew.
 
-![Router identity and beacon timing](https://github.com/user-attachments/assets/59fbb83b-6d98-4d00-aa24-ec6e696aae3e)
+![Over-the-air router identity and clock analysis](https://github.com/user-attachments/assets/59fbb83b-6d98-4d00-aa24-ec6e696aae3e)
 
-### 3) Wi-Fi security details
-Shows the network's encryption, key management, WPS, and frame protection settings.
+### 3) Cryptographic security and AKM matrix
+Summarizes WPA2/WPA3 transition security, pairwise ciphers, SAE and PSK key management, RSN capabilities, management-frame protection, WPS status, and fast-roaming support.
 
-![Wi-Fi security details](https://github.com/user-attachments/assets/9bc5bbc1-1f5e-4e6c-ae5d-7c5eb05ce7fc)
+![Cryptographic security and AKM matrix](https://github.com/user-attachments/assets/9bc5bbc1-1f5e-4e6c-ae5d-7c5eb05ce7fc)
 
-### 4) Connected devices and Wi-Fi capabilities
-Shows connected-device estimates, channel information, transmit power, MIMO, and other 802.11 capabilities.
+### 4) Connected devices and deep 802.11 information elements
+Shows estimated connected devices, QoS and TIM/DTIM state, regulatory and transmit-power constraints, MIMO and beamforming, HT/HE capabilities, BSS color, extended capabilities, and vendor OUIs.
 
-![Connected devices and Wi-Fi capabilities](https://github.com/user-attachments/assets/965a0e4d-2328-427b-b626-d7604d34ba40)
+![Connected devices and deep 802.11 information elements](https://github.com/user-attachments/assets/965a0e4d-2328-427b-b626-d7604d34ba40)
+
+### 5) Decoded beacon information-element frame
+Provides the raw beacon IE payload together with decoded tags for SSID, supported rates, channel parameters, TIM, country and power constraints, RSN, HT/VHT/HE capabilities, spatial reuse, MU-EDCA, and vendor extensions.
+
+![Decoded beacon information-element frame](https://github.com/user-attachments/assets/6a317b31-f8a0-4bf2-8cee-0d9ee9e00ba9)
